@@ -2,39 +2,75 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Barbershop</title>
+    <meta charset="UTF-8">
+    <title>Barbershop</title>
 </head>
 
 <body>
-  <header class="main-header">
-    <div class="container">
-      <nav class="main-navigation">
-        <ul>
-          <li class="active">
-            <a href="#">Главная</a>
-          </li>
-          <li>
-            <a href="#">Информация</a>
-          </li>
-          <li>
-            <a href="#">Новости</a>
-          </li>
-          <li>
-            <a href="#">Прайс-лист</a>
-          </li>
-          <li>
-          <a href="#">Магазин</a>
-          </li>
-          <li>
-            <a href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-       <div class="user-block">
-          <a href="#" class="login">Вход</a>
+    <header class="main-header">
+        <div class="container">
+            <nav class="main-navigation">
+                <ul>
+                    <li>
+                        <a href="#">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Информация</a>
+                    </li>
+                    <li>
+                        <a href="#">Новости</a>
+                    </li>
+                    <li>
+                        <a href="#">Прайс-лист</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">Магазин</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="user-block">
+                <a href="#" class="login">Вход</a>
+            </div>
         </div>
-      </div>
     </header>
-  </body>
+    <div class="container">
+<div class="cont-menu"><!--or section?-->
+    <h1>Средства для ухода</h1>
+    <nav class="navigation">
+        <ul>
+            <li>
+                <a href="#">Главная</a>
+            </li><!--декор.элемент в css-->
+            <li>
+                  <a href="#">Магазин</a>
+            </li>
+            <li class="active">
+                  <a href="#">Средства для ухода</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+    <div class="cont-makers">
+        <h2>Производители</h2>
+          <form action="/echo" method="post">
+          <h3>Baxter of Calofornia</h3>
+          <input type="checkbox" id="item1" name="baxter" checked>
+          <h3>Mr Natty</h3>
+          <input type="checkbox" id="item2" name="natty">
+          <h3>Suavecito</h3>
+          <input type="checkbox" id="item3" name="suavecito" checked>
+          <h3>Malin+Goetz</h3>
+          <input type="checkbox" id="item4" name="malin">
+          <h3>Murrays</h3>
+          <input type="checkbox" id="item5" name="murray">
+          <h3>American Crew</h3>
+          <input type="checkbox" id="item6" name="crew" checked>
+        </form>
+    </div>
+    </div>
+</body>
+
 </html>
