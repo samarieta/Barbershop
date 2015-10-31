@@ -96,6 +96,38 @@ h1 {
     padding: 20px 0;
 }
 
+
+/*--second page--*/
+
+.cont-makers {
+    float: left;
+    width: 240px;
+    min-height: 393px;
+    margin-bottom: 20px;
+}
+
+.all-products {
+    background-color: #f6f3f0;
+    width: 600px;
+    margin-left: 180px;
+    margin-bottom: 20px;
+}
+
+.product {
+    float: left;
+    width: 200px;
+    min-height: 393px;
+    margin-right: 10px;
+}
+
+.product:last-child {
+    margin-right: 0px;
+}
+
+.pages {
+    margin-left: 260px;
+}
+
 .footer-contacts {
     width: 220px;
     float: left;
