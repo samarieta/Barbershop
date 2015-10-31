@@ -1,5 +1,5 @@
 body {
-    min-width: 800px;
+    min-width: 1200px;
     margin: 0;
     padding: 0;
     font-size: 14px;
@@ -27,12 +27,12 @@ h1 {
 
 .main-header {
     padding: 5px 0;
+    min-height: 68px;
 }
 
 .container {
-    width: 660px;
+    width: 800px;
     margin: 0 auto;
-    min-height: 68px;
 }
 
 .main-navigation {
@@ -50,10 +50,49 @@ h1 {
 
 .index-container {
     background-color: #f6f3f0;
-    width: 1200px;
+    width: 800px;
+    margin: 0 auto;
 }
 
-.cont-menu .navigation .breadcrumbs .all-photo .mainphoto .smallphoto .description .articul .details .main-footer {
+.breadcrumbs {
+    float: left;
+    width: 520px;
+}
+
+.all-photo {
+    width: 460px;
+    margin-right: 130px;
+}
+
+.mainphoto {
+    float: left;
+    width: 460px;
+    margin-right: 130px;
+    min-height: 498px;
+    margin-bottom: 20px;
+}
+
+.smallphoto {
+    float: left;
+    min-height: 154px;
+    margin-right: 20px;
+}
+
+.smallphoto:last-child {
+    margin-right: 0px
+}
+
+.description {
+    float: right;
+    width: 320px;
+}
+
+.articul {
+    float: right;
+    vertical-align: top;
+}
+
+.details .main-footer {
     padding: 20px 0;
 }
 
