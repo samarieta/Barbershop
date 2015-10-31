@@ -37,7 +37,8 @@ h1 {
 
 .main-navigation {
     float: left;
-    <!--right не работает--> width: 520px;
+    /*--right не работает*/
+    width: 520px;
     background-color: black;
 }
 
@@ -47,4 +48,27 @@ h1 {
     background-color: black;
 }
 
-.container .cont-menu .navigation .breadcrumbs .all-photo .mainphoto .smallphoto .description .articul .details .main-footer .container .footer-contacts .footer-social .footer-copyright
+.index-container {
+    background-color: #f6f3f0;
+    width: 1200px;
+}
+
+.cont-menu .navigation .breadcrumbs .all-photo .mainphoto .smallphoto .description .articul .details .main-footer {
+    padding: 20px 0;
+}
+
+.footer-contacts {
+    width: 220px;
+    float: left;
+    margin-right: 35px;
+}
+
+.footer-social {
+    width: 140px;
+    float: left;
+}
+
+.footer-copyright {
+    width: 220px;
+    float: right;
+}
